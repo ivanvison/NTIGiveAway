@@ -5,8 +5,7 @@ from giveAwayArrays import *
 #Contadorsito
 t = 10
 for count in range(t):
-    randomCoolMsg = random.choice(coolMsgs)
-    print(t," ", randomCoolMsg)
+    print(t," ", random.choice(coolMsgs))
     time.sleep(1)
     t-= 1
 
