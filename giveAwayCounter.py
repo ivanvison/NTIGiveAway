@@ -14,7 +14,7 @@ randomCoolName = random.choice(coolNames)
 
 #The system is rigged
 #while randomCoolName != 'Evan':
-#	print("NOT A Winner :( - ",randomCoolName)	
+#	print('NOT A Winner :( -',randomCoolName)	
 #	random_name = random.choice(coolNames)
 
 print("Winner!!! -",randomCoolName)
