@@ -2,7 +2,7 @@ import random, time
 from giveAwayArrays import *
 
 #Contadorsito
-t = 10
+t = 2
 for count in range(t):
     print(t," ",random.choice(coolMsgs))
     time.sleep(1)
@@ -12,9 +12,11 @@ for count in range(t):
 randomCoolName = random.choice(coolNames)
 
 #The system is rigged
-#while randomCoolName != 'Evan':
-#	print('NOT A Winner :( -',randomCoolName)	
-#	random_name = random.choice(coolNames)
+while randomCoolName != 'Evan':
+    print('NOT A Winner :( -',randomCoolName)
+    randomCoolName = random.choice(coolNames)
+    time.sleep(1)
+
 
 print("Winner!!! -",randomCoolName)
 print("Gracias a Gomez Diaz, a Cerveceria, Acroarte, al peblo dominicano!")
