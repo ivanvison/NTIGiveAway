@@ -12,10 +12,10 @@ for count in range(t):
 randomCoolName = random.choice(coolNames)
 
 #The system is rigged
-while randomCoolName != 'Evan':
-    print('NOT A Winner :( -',randomCoolName)
-    randomCoolName = random.choice(coolNames)
-    time.sleep(1)
+#while randomCoolName != 'Evan':
+#    print('NOT A Winner :( -',randomCoolName)
+#    randomCoolName = random.choice(coolNames)
+#    time.sleep(1)
 
 
 print("Winner!!! -",randomCoolName)
